@@ -1,0 +1,77 @@
+body{
+    background-image: url(pexels-jessica-lewis-583846.jpg);
+    background-size: cover;
+}
+.main-con{
+    border-radius: 15px;
+    background-color: #d8e3e7;
+    margin: 150px auto;
+    padding: 30px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.main-con p{
+    margin: 5px 0;
+    color: #666;
+}
+
+.main-con ol{
+    margin: 20px 0;
+}
+
+.main-con ol li{
+    margin: 5px 0;
+    padding: 3px;
+}
+
+.main-con .pretty-button {
+    margin: 10px 2px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.main-con .pretty-button:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+.main-con input{
+    padding: 3px 6px;
+}
+
+.main-con form{
+    display: inline-block;
+}
+
+.main-con .completed{
+    text-decoration: line-through;
+    color: #666;
+}
+
+.all-buttons {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media only screen and (min-width: 1400px) {
+    .main-con {
+        width: 50%;
+    }
+
+    .main-con input {
+        width: 600px;
+    }
+    
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+    .main-con {
+        width: 75%;
+    }
+
+    .main-con input {
+        width: 400px;
+    }
+}
